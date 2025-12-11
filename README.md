@@ -1,6 +1,6 @@
 # Automotive CAN Sniffer and Dashboard
 
-Hello, this is Minjae Kim and this is my ECE 4180 final project report. Over the past month, I developed a CAN sniffer and dashboard that can connect to my car's OBD-II port, receive various vehicle telemetry, and display on a website hosted on the ESP32 via AP.
+Hello, and this is my ECE 4180 final project report. Over the past month, I developed a CAN sniffer and dashboard that can connect to my car's OBD-II port, receive various vehicle telemetry, and display on a website hosted on the ESP32 via AP.
 
 Before everything, here is a [Youtube video](https://youtu.be/3Cwpt5kMr2Q) demoing everything working.
 
