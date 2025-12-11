@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    background: #111;
+    color: #eee;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+
+.card {
+    padding: 14px;
+    background: #222;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card.wide {
+    grid-column: span 3;
+}
+
+.big {
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.bar {
+    height: 10px;
+    background: green;
+    margin-top: 8px;
+    border-radius: 5px;
+    width: 0%;
+}

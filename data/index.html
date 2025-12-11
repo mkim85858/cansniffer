@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OBD-II Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>OBD-II Dashboard</h2>
+
+<div class="container">
+
+    <div class="card">
+        <h3>RPM</h3>
+        <div id="rpmVal" class="big">0</div>
+    </div>
+
+    <div class="card">
+        <h3>Speed (mph)</h3>
+        <div id="speedVal" class="big">0</div>
+    </div>
+
+    <div class="card">
+        <h3>Throttle (%)</h3>
+        <div id="thrVal" class="big">0</div>
+    </div>
+
+    <div class="card">
+        <h3>Load (%)</h3>
+        <div id="loadVal" class="big">0</div>
+    </div>
+
+    <div class="card">
+        <h3>HP (est)</h3>
+        <div id="hpVal" class="big">0</div>
+    </div>
+
+    <div class="card">
+        <h3>Aggressiveness</h3>
+        <div id="aggVal" class="big">0</div>
+        <div id="aggBar" class="bar"></div>
+    </div>
+
+    <div class="card wide">
+        <h3>0-60 Time</h3>
+        <div id="z60Val" class="big">0.00</div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
